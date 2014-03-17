@@ -35,6 +35,6 @@ $(BUILD_PATH)/test.o: $(SRC_PATH)/test.cpp
 
 .PHONY: clean
 clean: 
-	rm -rf $(BUILD_PATH)/*.o $(BUILD_PATH)/main
+	rm -rf $(BUILD_PATH)/*.o $(BUILD_PATH)/main $(BUILD_PATH)/test
 
 

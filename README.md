@@ -1,16 +1,17 @@
 # Simple text processor #
 
 Simple text processor which can process text files chunk by chunk without loading all file in memory.
-This is console application. Processing performed using information in config file. 
+This is a console application. Processing performed using information in config file. 
 
 ## Building text processor ##
 
-Clone this repository, `cd` into it and type `make`. After that you can run console app `build/main`
+Clone this repository, `cd` into it and type `make`. 
+After that you can run console app `build/main`.
 To clean simply use `make clean`.
 
 ## Running text processor ##
 
-For launch:
+For launch use command:
 ```
     ./main [input_file_name] [output_file_name] [config_file_name]
 ```
